@@ -22,4 +22,12 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Controllers\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Studenda.Core\Studenda.Core\Studenda.Core.csproj" />
+    </ItemGroup>
+
 </Project>
