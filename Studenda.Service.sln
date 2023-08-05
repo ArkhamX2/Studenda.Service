@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studenda.Service", "Studenda.Service\Studenda.Service.csproj", "{7B6D0150-4F85-44CB-AE8D-6D30C4259094}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Studenda.Service", "Studenda.Service\Studenda.Service.csproj", "{7B6D0150-4F85-44CB-AE8D-6D30C4259094}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6138F309-869E-4376-A58C-24ED0A90AFB3}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Studenda.Core", "..\Studenda.Core\Studenda.Core\Studenda.Core.csproj", "{88BF5B8F-1C83-4095-A1A6-EB7B5D77067D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,5 +22,15 @@ Global
 		{7B6D0150-4F85-44CB-AE8D-6D30C4259094}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B6D0150-4F85-44CB-AE8D-6D30C4259094}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B6D0150-4F85-44CB-AE8D-6D30C4259094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BF5B8F-1C83-4095-A1A6-EB7B5D77067D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BF5B8F-1C83-4095-A1A6-EB7B5D77067D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BF5B8F-1C83-4095-A1A6-EB7B5D77067D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BF5B8F-1C83-4095-A1A6-EB7B5D77067D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D21EF7B-F48F-4265-8C68-44F74E403735}
 	EndGlobalSection
 EndGlobal
