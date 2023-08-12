@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  studenda.service:
+    build:
+      context: "/Users/alex/Projects/Studenda.Service/Studenda.Service"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net7.0/Studenda.Service.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "https://+:443;http://+:80"
+    image: "studenda.service:dev"
+    ports: []
+    volumes:
+    - "/Users/alex/.aspnet/https:/root/.aspnet/https"
+    - "/Users/alex/.microsoft/usersecrets:/root/.microsoft/usersecrets"
+    - "/Users/alex/Projects/Studenda.Service/Studenda.Service:/app:rw"
+    working_dir: "/app"
